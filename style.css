@@ -21,14 +21,14 @@ body{
 .nav .nav-list{
     display: flex;
     justify-content: space-between;
-    /* align-items: flex-end; */
+   
     text-decoration: none;
     list-style-type: none;
     margin-top: 30px;
     gap: 40px;
 }
 .nav .nav-list .list-item{
-    /* margin-left: 100px; */
+  
     color: #fff;
 }
 .nav .btn{
@@ -48,7 +48,7 @@ body{
 .main .left{
     width: 400px;
     height:450px;
-    /* overflow: hidden; */
+  
 
 }
 .main .left .image{
@@ -95,7 +95,7 @@ body{
 }
 .mail .email{
     border: none;
-    /* font-size: 15px; */
+    
     margin: 10px 30px 25px 0px;
     width: 150px;
     position: relative;
@@ -110,16 +110,7 @@ body{
     right:-30px;
     padding: 15px 50px;
 }
-/* .middle{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-img{
-    width:200px;
-    height: auto;
-} */
+
 .middle h2{
     margin: 100px 0 100px 0;
     text-align: center;
@@ -168,7 +159,7 @@ img{
 .image .image-left > *{
     justify-content: center;
     align-items: center;
-    /* margin-top: 100px; */
+    
 }
 .image .image-left h3{
     position: relative;
@@ -305,8 +296,7 @@ img{
     background-color: transparent;
 }
 .hr{
-        /* margin: 0px -50px 0px 70px; */
-    /* color: rgba(255, 255, 255, 0.912); */
+     
    
     position: relative;
     left: 100px;
@@ -337,3 +327,59 @@ img{
     color: #fff;
     font-size: 18px;
 }
+
+
+@media only screen and (max-width:1200px){
+    .main{
+        /* margin: 150px 100px 0 100px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .main .right{
+        margin-top: 5rem;
+        text-align: center;
+        
+    }
+    .main .right h1{
+        font-size: 3rem;
+    }
+
+    .main .right .mail{
+        margin-left: 4rem;
+        text-align: center;
+    }
+    .main .right .mail .mail-btn{
+       margin-right: 1rem;
+    }
+    .navbar{
+        width: 120%;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .navbar{
+        width: 150%;
+    }
+    .navbar .nav .nav-list{
+        margin-top: 10rem;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .navbar .nav button{
+        position: relative;
+        right: 5rem;
+    }
+    .navbar .nav .logo{
+        position: relative;
+        left: 5rem;
+    }
+
+    .navbar{
+        width: 250%;
+    }
+
+}
+
