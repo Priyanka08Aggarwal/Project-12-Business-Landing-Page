@@ -353,19 +353,56 @@ body{
     .main .right .mail .mail-btn{
        margin-right: 1rem;
     }
-    .navbar{
+    .navbar , .footer{
+        width: 120%;
+    }
+
+    .middle{
         width: 120%;
     }
 }
 
 @media only screen and (max-width:800px){
-    .navbar{
+    .navbar , .middle{ 
         width: 150%;
     }
     .navbar .nav .nav-list{
         margin-top: 10rem;
     }
+
+    /* .footer{
+        width: 200%;
+    } */
 }
+@media only screen and (max-width:700px){
+    .footer .footer-top , .footer-bottom{
+        width: 200%;
+        background-color: #11181c;
+    }
+    .footer span{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:700px){
+    .middle {
+        width: 200%;
+    }
+    .navbar{
+        width: 200%;
+    }
+    
+}
+
+@media only screen and (max-width:1000px){
+    .team{
+        flex-direction: column;
+    }
+    .team > *{
+        margin-bottom: 3rem;
+    }
+}
+
 
 @media only screen and (max-width:600px){
     .navbar .nav button{
@@ -377,9 +414,41 @@ body{
         left: 5rem;
     }
 
-    .navbar{
+    .navbar, .middle{
         width: 250%;
     }
 
 }
 
+@media only screen and (max-width:900px){
+    .pic4-box , .image-left{
+        margin-left: 3rem;
+     }
+     .footer{
+        width: 150%;
+    }
+}
+@media only screen and (max-width:450px){
+    .navbar , .middle{
+        width: 300%;
+    }
+}
+
+@media only screen and (max-width:370px){
+    .navbar , .middle{
+        width: 350%;
+    }
+}
+@media only screen and (max-width:400px){
+     .pic4-box , .image-left{
+        margin-left: 1rem;
+     }
+     .team-heading{
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+     }
+     .team-heading > *{
+        margin-top: 2rem;
+     }
+}
