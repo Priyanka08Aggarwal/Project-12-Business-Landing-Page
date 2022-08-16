@@ -468,7 +468,14 @@ body{
 }
 @media only screen and (min-width:701px) and (max-width:900px){
     .middle{
-        margin-left: 40rem;
+        margin-left: 25rem;
+    }
+    .middle .team{
+        margin-left: 0rem;
+    }
+
+    .team-btn{
+        margin-left: -5rem;
     }
 }
 
