@@ -365,6 +365,9 @@ body{
 .navbar{
     width: 145%;
 }
+.footer{
+    width: 145%;
+}
 }
 
 @media only screen and (max-width:900px){
@@ -377,14 +380,20 @@ body{
     .navbar .nav .nav-list{
         margin-top: 10rem;
     }
+    .footer{
+        width: 200%;
+    }
 }
 @media only screen and (max-width:700px){
-    .footer .footer-top , .footer-bottom{
+    /* .footer .footer-top , .footer-bottom{
         width: 200%;
         background-color: #11181c;
     }
     .footer span{
         display: none;
+    } */
+    .footer{
+        width: 400%;
     }
 }
 
@@ -428,9 +437,9 @@ body{
     .pic4-box , .image-left{
         margin-left: 3rem;
      }
-     .footer{
+     /* .footer{
         width: 150%;
-    }
+    } */
 }
 @media only screen and (max-width:450px){
      .middle{
@@ -460,4 +469,25 @@ body{
      .team-heading > *{
         margin-top: 2rem;
      }
+}
+@media only screen and (min-width:701px) and (max-width:1000px){
+    .middle{
+        margin-left: 7rem;
+    }
+}
+@media only screen and (min-width:601px) and (max-width:700px){
+    .middle{
+        margin-left: 45rem;
+    }
+}
+
+@media only screen and (min-width:450px) and (max-width:600px){
+    .middle{
+        margin-left: 15rem;
+    }
+}
+@media only screen and (min-width:370px) and (max-width:449px){
+    .middle{
+        margin-left: 10rem;
+    }
 }
